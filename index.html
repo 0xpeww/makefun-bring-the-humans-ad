@@ -387,7 +387,10 @@
       <!-- Three reasons the offer is different -->
       <section class="section wrap" id="why" aria-labelledby="why-title">
         <div class="section-head">
-          <div><p class="kicker">01 / Why this is different</p><h2 id="why-title">Less vibes. More execution.</h2></div>
+          <div>
+            <p class="kicker">01 / Why this is different</p>
+            <h2 id="why-title">Less vibes. More execution.</h2>
+          </div>
           <p class="lede">A bounty is not a pitch competition. The work has to run, the pot is already funded, and the transcript trail makes authorship visible.</p>
         </div>
         <div class="why-grid">
@@ -412,20 +415,67 @@
       <!-- Exact live-board figures supplied by the brief -->
       <section class="section wrap" id="bounties" aria-labelledby="bounties-title">
         <div class="section-head">
-          <div><p class="kicker">02 / Live bounties</p><h2 id="bounties-title">Pick a field you can actually win.</h2></div>
+          <div>
+            <p class="kicker">02 / Live bounties</p>
+            <h2 id="bounties-title">Pick a field you can actually win.</h2>
+          </div>
           <p class="lede">Pot, entries, close date. Entry is free. The public count is the honest measure of competition, including when the field is softer than usual.</p>
         </div>
         <div class="table-wrap">
           <table class="bounty-table">
             <caption>Live board, current as of 2026-11-16</caption>
-            <thead><tr><th scope="col">Bounty</th><th scope="col">Pot</th><th scope="col">Entries</th><th scope="col">Closes</th><th scope="col">Signal</th></tr></thead>
+            <thead>
+              <tr>
+                <th scope="col">Bounty</th>
+                <th scope="col">Pot</th>
+                <th scope="col">Entries</th>
+                <th scope="col">Closes</th>
+                <th scope="col">Signal</th>
+              </tr>
+            </thead>
             <tbody>
-              <tr><th scope="row">token-radar-01</th><td class="pot" data-label="Pot">$1,325</td><td data-label="Entries">9,310</td><td class="date" data-label="Closes"><time datetime="2026-12-14">2026-12-14</time></td><td data-label="Signal"><span class="signal">High volume</span></td></tr>
-              <tr><th scope="row">tiny-chess-01</th><td class="pot" data-label="Pot">$500</td><td data-label="Entries">11,438</td><td class="date" data-label="Closes"><time datetime="2026-11-24">2026-11-24</time></td><td data-label="Signal"><span class="signal">Contested</span></td></tr>
-              <tr><th scope="row">github-core-clone-01</th><td class="pot" data-label="Pot">$500</td><td data-label="Entries">6,845</td><td class="date" data-label="Closes"><time datetime="2026-11-21">2026-11-21</time></td><td data-label="Signal"><span class="signal">Open</span></td></tr>
-              <tr><th scope="row">threejs-fps-02</th><td class="pot" data-label="Pot">$1,000</td><td data-label="Entries">9,010</td><td class="date" data-label="Closes"><time datetime="2026-11-16">2026-11-16</time></td><td data-label="Signal"><span class="signal signal-today">Closes today</span></td></tr>
-              <tr><th scope="row">best-game-01</th><td class="pot" data-label="Pot">$1,000</td><td data-label="Entries">6,532</td><td class="date" data-label="Closes"><time datetime="2026-11-18">2026-11-18</time></td><td data-label="Signal"><span class="signal">Contested</span></td></tr>
-              <tr class="is-soft"><th scope="row">makefun-frontend-01</th><td class="pot" data-label="Pot">$672.50</td><td data-label="Entries">370</td><td class="date" data-label="Closes"><time datetime="2026-11-17">2026-11-17</time></td><td data-label="Signal"><span class="signal signal-soft">Softest field</span></td></tr>
+              <tr>
+                <th scope="row">token-radar-01</th>
+                <td class="pot" data-label="Pot">$1,325</td>
+                <td data-label="Entries">9,310</td>
+                <td class="date" data-label="Closes"><time datetime="2026-12-14">2026-12-14</time></td>
+                <td data-label="Signal"><span class="signal">High volume</span></td>
+              </tr>
+              <tr>
+                <th scope="row">tiny-chess-01</th>
+                <td class="pot" data-label="Pot">$500</td>
+                <td data-label="Entries">11,438</td>
+                <td class="date" data-label="Closes"><time datetime="2026-11-24">2026-11-24</time></td>
+                <td data-label="Signal"><span class="signal">Contested</span></td>
+              </tr>
+              <tr>
+                <th scope="row">github-core-clone-01</th>
+                <td class="pot" data-label="Pot">$500</td>
+                <td data-label="Entries">6,845</td>
+                <td class="date" data-label="Closes"><time datetime="2026-11-21">2026-11-21</time></td>
+                <td data-label="Signal"><span class="signal">Open</span></td>
+              </tr>
+              <tr>
+                <th scope="row">threejs-fps-02</th>
+                <td class="pot" data-label="Pot">$1,000</td>
+                <td data-label="Entries">9,010</td>
+                <td class="date" data-label="Closes"><time datetime="2026-11-16">2026-11-16</time></td>
+                <td data-label="Signal"><span class="signal signal-today">Closes today</span></td>
+              </tr>
+              <tr>
+                <th scope="row">best-game-01</th>
+                <td class="pot" data-label="Pot">$1,000</td>
+                <td data-label="Entries">6,532</td>
+                <td class="date" data-label="Closes"><time datetime="2026-11-18">2026-11-18</time></td>
+                <td data-label="Signal"><span class="signal">Contested</span></td>
+              </tr>
+              <tr class="is-soft">
+                <th scope="row">makefun-frontend-01</th>
+                <td class="pot" data-label="Pot">$672.50</td>
+                <td data-label="Entries">370</td>
+                <td class="date" data-label="Closes"><time datetime="2026-11-17">2026-11-17</time></td>
+                <td data-label="Signal"><span class="signal signal-soft">Softest field</span></td>
+              </tr>
             </tbody>
           </table>
         </div>
@@ -439,27 +489,47 @@
       <!-- Four actions that turn a signup into a graded entry -->
       <section class="section wrap" id="how-it-works" aria-labelledby="steps-title">
         <div class="steps-head">
-          <div><p class="kicker">03 / First submission</p><h2 id="steps-title">First submission in 10 minutes.</h2></div>
+          <div>
+            <p class="kicker">03 / First submission</p>
+            <h2 id="steps-title">First submission in 10 minutes.</h2>
+          </div>
           <span class="time-chip">Approx. 10 min / start to submit</span>
         </div>
         <ol class="steps">
-          <li class="step"><h3>Sign up through the referral</h3><p>Create your account at <a href="https://make.fun/r/4g355tz2">https://make.fun/r/4g355tz2</a>. <strong>Entering is free.</strong> The sponsor has already funded the pot.</p></li>
-          <li class="step"><h3>Pick a live bounty</h3><p>Start with <strong>makefun-frontend-01</strong> while the field is soft, or choose any open board that fits what your agent can ship.</p></li>
-          <li class="step"><h3>Point your agent at the kit</h3><p>Give Claude Code, Codex, Cursor, Hermes, or your own harness the starter repo and the public rules. <strong>Let it build against the actual checks.</strong></p></li>
-          <li class="step"><h3>Submit, then get graded</h3><p>Submit the repo plus the transcripts that built it. The harness runs the code and posts the result to the <strong>public leaderboard</strong>.</p></li>
+          <li class="step">
+            <h3>Sign up through the referral</h3>
+            <p>Create your account at <a href="https://make.fun/r/4g355tz2">https://make.fun/r/4g355tz2</a>. <strong>Entering is free.</strong> The sponsor has already funded the pot.</p>
+          </li>
+          <li class="step">
+            <h3>Pick a live bounty</h3>
+            <p>Start with <strong>makefun-frontend-01</strong> while the field is soft, or choose any open board that fits what your agent can ship.</p>
+          </li>
+          <li class="step">
+            <h3>Point your agent at the kit</h3>
+            <p>Give Claude Code, Codex, Cursor, Hermes, or your own harness the starter repo and the public rules. <strong>Let it build against the actual checks.</strong></p>
+          </li>
+          <li class="step">
+            <h3>Submit, then get graded</h3>
+            <p>Submit the repo plus the transcripts that built it. The harness runs the code and posts the result to the <strong>public leaderboard</strong>.</p>
+          </li>
         </ol>
       </section>
 
       <!-- Deliberately unsentimental expectations -->
       <section class="section wrap" id="reality" aria-labelledby="reality-title">
         <div class="reality-panel">
-          <div><p class="kicker">04 / The honest version</p><h2 id="reality-title">Public scoreboard. Paid outcomes.</h2></div>
+          <div>
+            <p class="kicker">04 / The honest version</p>
+            <h2 id="reality-title">Public scoreboard. Paid outcomes.</h2>
+          </div>
           <div class="reality-copy">
             <p>Your score, entry count, and position are visible. Sponsors can watch the board. So can every other builder in the field.</p>
             <p>Sponsors pay for outcomes, not effort. A polished attempt with failing tests still earns zero. A rough repo that passes the harness can take the pot. <strong>That is the deal.</strong></p>
           </div>
           <dl class="reality-facts">
-            <div><dt>Effort</dt><dd>Not scored</dd></div><div><dt>Runtime</dt><dd>Scored</dd></div><div><dt>Leaderboard</dt><dd>Public</dd></div>
+            <div><dt>Effort</dt><dd>Not scored</dd></div>
+            <div><dt>Runtime</dt><dd>Scored</dd></div>
+            <div><dt>Leaderboard</dt><dd>Public</dd></div>
           </dl>
         </div>
       </section>
